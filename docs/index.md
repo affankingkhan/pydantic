@@ -73,7 +73,7 @@ So *pydantic* uses some cool new language features, but why should I actually go
   with methods on a model decorated with the [`validator`](usage/validators.md) decorator.
   
 **dataclasses integration**
-: As well as `BaseModel`, *pydantic* provides
+: Along with `BaseModel`, *pydantic* provides
   a [`dataclass`](usage/dataclasses.md) decorator which creates (almost) vanilla python dataclasses with input
   data parsing and validation.
 
@@ -90,28 +90,28 @@ Hundreds of organisations and packages are using *pydantic*, including:
   [for subprojects](https://github.com/samuelcolvin/pydantic/issues/773).
 
 **Microsoft**
-: are using *pydantic* (via FastAPI) for 
+: use *pydantic* (via FastAPI) for 
   [numerous services](https://github.com/tiangolo/fastapi/pull/26#issuecomment-463768795), some of which are 
   "getting integrated into the core Windows product and some Office products."
 
 **Amazon Web Services**
-: are using *pydantic* in [gluon-ts](https://github.com/awslabs/gluon-ts), an open-source probabilistic time series
+: use *pydantic* in [gluon-ts](https://github.com/awslabs/gluon-ts), an open-source probabilistic time series
   modeling library.
 
 **The NSA**
-: are using *pydantic* in [WALKOFF](https://github.com/nsacyber/WALKOFF), an open-source automation framework.
+: use *pydantic* in [WALKOFF](https://github.com/nsacyber/WALKOFF), an open-source automation framework.
 
 **Uber**
-: are using *pydantic* in [Ludwig](https://github.com/uber/ludwig), an an open-source TensorFlow wrapper.
+: use *pydantic* in [Ludwig](https://github.com/uber/ludwig), an open-source TensorFlow wrapper.
 
 **Cuenca**
-: are a Mexican neobank that uses *pydantic* for several internal
+: a Mexican neobank that uses *pydantic* for several internal
   tools (including API validation) and for open source projects like
   [stpmex](https://github.com/cuenca-mx/stpmex-python), which is used to process real-time, 24/7, inter-bank
   transfers in Mexico.
 
 [The Molecular Sciences Software Institute](https://molssi.org)
-: are using *pydantic* in [QCFractal](https://github.com/MolSSI/QCFractal), a massively distributed compute framework
+: use *pydantic* in [QCFractal](https://github.com/MolSSI/QCFractal), a massively distributed compute framework
   for quantum chemistry.
 
 For a more comprehensive list of open-source projects using *pydantic* see the 
